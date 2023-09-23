@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NLP App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        h3 {
+            color: #333;
+        }
+
+        ol {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        a.button {
+            display: block;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            cursor: pointer;
+            padding: 15px 20px; /* Increased padding for button height */
+            font-size: 16px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            max-width: 300px; /* Limit button width */
+            margin: 0 auto; /* Center the button */
+        }
+
+        a.button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>NLP App</h1><br>
+    <h3>Please select one of the NLP tasks:</h3>
+    <ol type="1">
+        <li><a class="button" href="/sentiment_analysis">Sentiment Analysis</a></li>
+        <li><a class="button" href="/ner">Named Entity Recognition</a></li>
+        <li><a class="button" href="/abuse_detection">Abuse Detection</a></li>
+    </ol>
+</body>
+</html>
